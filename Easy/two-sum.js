@@ -5,12 +5,12 @@
  */
 var twoSum = function (nums, target) {
   for (let y = 0; nums.length > y; y++) {
-    for (let i = y+1; nums.length > i; i++) {
+    for (let i = y + 1; nums.length > i; i++) {
       if ((nums[y] + nums[i]) === target) {
         return [y, i]
       }
     }
-  }  
+  }
 };
 
 let testCases = [
